@@ -1,0 +1,192 @@
+body {
+    font-family: 'Poppins';
+    background-image: url("Img/Image-1.png");
+    height: 50%;
+    background-position: 0 100px;
+    background-repeat: no-repeat;
+    background-size: 48vw 120vh;
+}
+
+.text-1 {
+    font-weight: 900;
+    font-size: 31px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-2 {
+    font-family: 'Roboto';
+    font-size: 120%;
+    line-height: 200%;
+    color: #1B1B1B;
+    text-decoration: none;
+}
+
+.text-3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 200%;
+    color: #1B1B1B;
+    text-decoration: none;
+}
+
+.text-4 {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #1B1B1B;
+}
+
+.text-5 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #1B1B1B;
+}
+
+.text-6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9B9B9B;
+}
+
+.text-7 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #9B9B9B;
+}
+
+.text-8 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.text-9 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.text-10 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.setting-1 {
+    position: relative;
+}
+
+.setting-2 {
+    width: 75%;
+}
+
+.setting-3 {
+    border-radius: 20px 0 0 20px !important;
+}
+
+.setting-4 {
+    border-radius: 0 20px 20px 0 !important;
+}
+
+
+.setting-5 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FF0060;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-1 {
+    border: 2px solid #FF0060;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FF0060;
+}
+
+.poni-1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+
+#mycarousel {
+    z-index: 4;
+}
+
+.hidden-1,
+.hidden-4 {
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    .text-1 {
+        font-size: 17.45px;
+    }
+
+    .hidden-2 {
+        display: none;
+    }
+
+    .hidden-1 {
+        display: block;
+    }
+
+    .hidden-5 {
+        display: none;
+    }
+
+    .text-9 {
+        font-size: medium !important;
+    }
+
+    .setting-2 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 800px) {
+
+    body {
+        background: none;
+    }
+
+    .hidden-3 {
+        display: none;
+    }
+
+    .hidden-4 {
+        display: block;
+    }
+
+    .text-10,
+    .text-9 {
+        color: #000000;
+        font-size: large;
+    }
+
+    .setting-2 {
+        width: 85%;
+    }
+}
